@@ -1,0 +1,46 @@
+ <%- include('partials/headerd') %>
+
+       
+
+
+        <div class="table-responsive table_indent">
+        <table class="table table-striped a ">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">NGO Name</th>
+              <th scope="col">Donated Amount</th>
+              <th scope="col">Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% var tem=tt.donatedNGOname.length %>
+            <% for(var i=0;i<tem;i++) { %>
+            
+
+            <%  var date=tt.datedonated[i].toString(); %>
+            <% var idx=date.indexOf('G');  %>
+            <%  date=date.substring(0,idx);  %>
+            <%   %>
+            <%   %>
+
+
+            <tr >
+              <th scope="row"><%= i+1 %></th>
+              <td><%=tt.donatedNGOname[i]%></td>
+              <td><%=tt.amountdonated[i]%></td>
+              <td ><%=date%></td>
+            </tr>
+            <% } %>
+          </tbody>
+        </table>
+        </div>
+
+       <!-- <h3></h3><br>
+      <h3></h3><br>
+      <h3></h3><br> -->
+
+
+ 
+
+<%- include('partials/footer') %>

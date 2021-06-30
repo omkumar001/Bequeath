@@ -1,0 +1,159 @@
+<%- include('partials/headerd') %>
+
+
+<h1 class="ngocategory">Choose Category</h1><hr>
+
+<script type="text/javascript">
+
+  var te= <%= flag %> ;
+
+  if(te==true){
+    success();
+  }
+
+  function success()
+  {
+  alert("Successfully donated");
+  }
+
+</script>
+
+
+<div class="container">
+  <div class="row">
+<div class="ngo_category col-lg">
+
+  <a href="/a/<%=Donor%>/<%=Donoremai%>/OldAge"> 
+<div class="card mt-4 ml-5 ngo_cards " style="width: 18rem; ">
+ <img class="card-img-top" src="/images/oldage.png" style="width: 18rem;  height:12rem;"  alt="Card image cap"> 
+  <div class="card-body">
+    <h4 class="ngotitle">Old Age Welfare</h4>
+    <p class="card-text card_details">Old age isn't a battle , old age is a massacre and will always beat youth and is second childhood.</p>
+  </div>
+</div>
+</a>
+
+
+<a href="/a/<%=Donor%>/<%=Donoremai%>/Animal">
+<div class="card mt-4 ml-5 ngo_cards" style="width: 18rem; ">
+   <img class="card-img-top" src="/images/animal.png" style="width: 18rem;  height:12rem;" alt="Card image cap"> 
+  <div class="card-body">
+    <h4 class="ngotitle">Animal Welfare</h4>
+    <p class="card-text card_details">Humanity's true moral test, its fundamental test consists of its attitude towards animals.</p>
+  </div>
+</div>
+</a>
+
+<a class="" href="/a/<%=Donor%>/<%=Donoremai%>/Women">
+<div class="card mt-4 ml-5 ngo_cards" style="width: 18rem;">
+  <img class="card-img-top" src="/images/women.png" style="width: 18rem;  height:12rem;" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="ngotitle">Women Welfare</h4>
+    <p class="card-text card_details"> Women are already strong, it's about changing the way the world perceives that strength.</p>
+  </div>
+</div>
+</a>
+
+<a href="/a/<%=Donor%>/<%=Donoremai%>/Children">
+<div class="card mt-4 ml-5 ngo_cards" style="width: 18rem;  ">
+   <img class="card-img-top" src="/images/children.png"  style="width: 18rem;  height:12rem;"  alt="Card image cap"> 
+  <div class="card-body">
+    <h4 class="ngotitle">Children Welfare</h4>
+    <p class="card-text card_details">Childhood is not from birth to a certain age . It is the kingdom where nobody dies.</p>
+  </div>
+</div>
+</a>
+
+
+<a href="/a/<%=Donor%>/<%=Donoremai%>/Cancer">
+<div class="card mt-4 ml-5 ngo_cards" style="width: 18rem;   ">
+ <img class="card-img-top" src="/images/cancer.png" style="width: 18rem;  height:12rem;"  alt="Card image cap">
+  <div class="card-body">
+    <h4 class="ngotitle">Cancer Welfare</h4>
+    <p class="card-text card_details">You can be a victim of cancer, or a survivor of cancer. It's a mindset.</p>
+  </div>
+</div>
+</a>
+
+
+<a class="" href="/a/<%=Donor%>/<%=Donoremai%>/Others">
+<div class="card mt-4 ml-5 ngo_cards" style="width: 18rem;  ">
+ <img class="card-img-top" src="/images/others.png" style="width: 18rem;  height:12rem;"  alt="Card image cap"> 
+  <div class="card-body">
+    <h4 class="ngotitle">Others</h4>
+    <p class="card-text card_details">It is more important to find out what you are giving to society than to spend.</p>
+  </div>
+</div>
+</a>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+    <!-- <! ///////////////////////////////////////////////////////////////////// -->
+      <!-- <div class=""><a href="/a/<%=Donor%>/<%=Donoremai%>/OldAge">Old Age Welfare</a>
+      </div>
+      <div class=""><a href="/a/<%=Donor%>/<%=Donoremai%>/Animal">Animal Care</a>
+      </div> -->
+      <!-- <div class=""><a href="/a/<%=Donor%>/<%=Donoremai%>/OldAge">Old Age Welfare</a>
+      </div>
+      <div class=""><a href="/a/<%=Donor%>/<%=Donoremai%>/OldAge">Old Age Welfare</a>
+      </div>
+      <div class=""><a href="/a/<%=Donor%>/<%=Donoremai%>/OldAge">Old Age Welfare</a>
+      </div> -->
+
+
+
+
+    <!-- FOOTER -->
+
+
+    <footer class="container copyright"> 
+       <p class="float-end"><button class="btn btn-dark" onclick="topFunction()" id="myBtn" title="Go to top">Top</button></p>
+      <p>&copy; 2020–2021 BonVivant Inc. &middot; <a >Privacy</a> &middot; <a >Terms</a></p>
+
+      <!-- <footer  id="footer">
+        <p class="float-end"><button class="btn btn-dark" onclick="topFunction()" id="myBtn" title="Go to top">Top</button></p> -->
+        <!-- <p>&copy; 2020–2021 Bequeath Inc. &middot; <a >Privacy</a> &middot; <a >Terms</a></p> -->
+      
+        
+
+            <!-- </footer> -->
+      <!-- </footer> -->
+
+    </footer>
+
+
+
+      <script type="text/javascript">
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {
+          scrollFunction()
+        };
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+      </script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="js/bundle.min.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

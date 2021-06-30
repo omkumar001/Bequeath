@@ -1,0 +1,42 @@
+<%- include('partials/header') %>
+
+    <!-- ///////////////////////////////////////////////////////////////////// -->
+
+
+    <h1 class="ngodetails">My NGO details</h1><hr>
+
+    <div class="col-9 px-4 myngo">
+
+               <div class="card details" style="width: 40rem;">
+                 <img src="/images/child.png" class="card-img-top" alt=".">
+                 <div class="card-body">
+
+
+                   <p class="card-text ">
+                     <h2 class="ngotitle"><%=myngo.ngotitle%></h2>
+                     <br><br>
+                     <p class= "details"></p>
+                     Owner :  <span class="info"> <%= Owner  %>  </span> <br>
+                     NGO Type : <span class="info">  <%=myngo.cateogary  %> </span>   <br>
+                     Registration No. : <span class="info">  <%=myngo.ngoregno  %> </span>   <br>
+                     Address : <span class="info"><%=myngo.ngoaddress  %> </span>   <br>
+                     Current Funds : <span class="info"> ₹ <%= myngo.currentfunds %> </span> <br>
+                     Website : <span class="info"><a style="text-decoration: none; color:black" href="<%= myngo.websiteurl %>"> <%= myngo.websiteurl %>  </a>   </span> <br>
+                      <br><br>
+                     About : - <br><br>
+                     <%=myngo.aboutngo  %>   <br><br>
+
+                   </p>
+
+
+                 </div>
+               </div>
+
+
+    </div>
+
+
+
+
+
+<%- include('partials/footer') %>
