@@ -79,4 +79,4 @@ that the Donor is satisfied about his donation i.e. his
 money is going to the proper place.
 
 
-To visit the website click on http://bequeath.herokuapp.com/
+# To visit the website click on http://bequeath.herokuapp.com/
