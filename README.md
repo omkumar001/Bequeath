@@ -32,7 +32,7 @@ listed on government website and verify from there if we want to.
 - Owner Profile Details
 
 
-# Server and Client Validation :-
+# Server and Client Validation :
 
 - For server side validation we have ensured that no two
 users can register themselves with the same email id in
@@ -67,7 +67,7 @@ security by misusing the password for the malicious
 use.)
 
 
-# Features :-
+# Features :
 
 - Only single registration of the NGO can be done from
 the owner’s side.
@@ -81,4 +81,4 @@ money is going to the proper place.
 
 
 
-# To visit the website click on http://bequeath.herokuapp.com/
+  To visit the website click on http://bequeath.herokuapp.com/
